@@ -1,0 +1,207 @@
+body {
+  background-color: #330f96;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+}
+.Container {
+  width: 75%;
+  margin: auto;
+}
+.Header_div {
+  width: 100%;
+  margin: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.Col {
+  width: 100%;
+  margin: 10px;
+}
+.Header_Title {
+  font-weight: 900;
+  font-size: x-large;
+}
+.active-link {
+  opacity: 0.5; 
+}
+.pannel {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: larger;
+}
+.pannel a {
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+ 
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align: center; */
+}
+.pannel button {
+  background-color: #e03971;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 0;
+  font-weight: 500;
+  font-size: 100%;
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.Body_div {
+  width: 100%;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+}
+.Body_title {
+  font-weight: 500;
+  font-size: 175%;
+  font-family: "Open Sans", sans-serif;
+}
+.Body_para {
+  font-weight: 500;
+  font-size: x-large;
+  padding: 0 100px 0 0;
+  font-family: "Nunito", sans-serif;
+}
+.form_div {
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_div h2 {
+  color: #1e0041;
+  font-weight: bolder;
+  font-size: 250%;
+  font-family: "Open Sans", sans-serif;
+}
+.form_div form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+.form_div input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid #c2c1c1;
+  border-radius: 25px;
+}
+.form_div input::placeholder {
+  font-size: larger;
+  font-weight: 600;
+  color: #a7a4a4;
+}
+.check_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a1a1a1;
+  margin: 20px 0;
+  font-size: medium;
+  font-weight: bold;
+}
+.check_box input {
+  width: 50px;
+  border: 2px solid #c2c1c1;
+}
+.form_button {
+  width: 100%;
+  background-color: #330f96;
+  margin: 10px;
+  padding: 15px;
+  border: 0;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  color: whitesmoke;
+}
+.Linediv {
+  width: 80%;
+  color: #8b8989;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .Header_div {
+    width: 100%;
+    margin: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Body_div {
+    width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .Container {
+    width: 100%;
+    margin: auto;
+  }
+  .Header_div {
+    width: 100%;
+    margin: 2.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Body_div {
+    width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pannel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
+  }
+  .Body_para {
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  }
+  .form_div {
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
